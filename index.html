@@ -3,7 +3,7 @@
 Created using JS Bin
 http://jsbin.com
 
-Copyright (c) 2016 by AH0HA (http://jsbin.com/jolazu/1/edit)
+Copyright (c) 2016 by anonymous (http://jsbin.com/weyerinuri/2/edit)
 
 Released under the MIT license: http://jsbin.mit-license.org
 -->
@@ -26,20 +26,20 @@ Released under the MIT license: http://jsbin.mit-license.org
 <meta name="viewport" content="width=device-width, initial-scale=1">  
 <script src="https://code.jquery.com/jquery-3.0.0.js"></script>
 <link href="https://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.css" rel="stylesheet" type="text/css" />
+<script src="https://code.jquery.com/jquery-1.11.3.js"></script>
 <script src="https://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.js"></script>
 <script src="https://remy.github.io/twitterlib/twitterlib.min.js"></script>
 <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
 <script src="https://code.jquery.com/jquery.min.js"></script>
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<title>Home</title>
-
+<title>RistoranteConFusion_aboutUs</title>
+<!--<span class="glyphicon glyphicon-info-sign"
+                                                         aria-hidden="true"></span>-->
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
   <title>JS Bin</title>
-<style id="jsbin-css">
-
-</style>
 <style id="jsbin-css">
 body{
     padding:50px 0px 0px 0px;
@@ -102,10 +102,12 @@ address{
     margin:0px auto;
     padding: 20px 0px 20px 0px;
 }
+
 </style>
 </head>
 <body>
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
           <span class="sr-only">Toggle navigation</span>
@@ -119,8 +121,8 @@ address{
       <div class="container">
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</a></li>
-            <li><a href="aboutus.html"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> About</a></li>
+            <li ><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</a></li>
+            <li class="active"><a href="aboutus.html"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> About</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                Menu <span class="glyphicon glyphicon-list-alt"></span></a>
@@ -202,55 +204,13 @@ address{
 
     </header>
 
-    <div>
-        <div>
-            <div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
               <ol class="breadcrumb">
-                <li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
-              </ol>   
-        <div class="container">
-         <div class="row row-content"> 
-            <div class="col-xs-12 col-sm-3 col-sm-push-9"> 
-                <p style="padding:20px;"></p>
-                <h3 align=center>Our Lipsmacking Culinary Creations</h3>
-            </div>
-            <div class="col-xs-12 col-sm-9 col-sm-pull-3">
-                <h3>Uthappizza</h3>
-                <p>A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
-                <p><a  href="#">More &raquo;</a></p>
-            </div>
-          </div> 
-          
-           <div class="row row-content"> 
-            <div class="col-xs-12 col-sm-3 col-sm-push-9">
-                <p style="padding:20px;"></p>
-                <h3 align=center>This Month's Promotions</h3>
-            </div>
-            <div class="col-xs-12 col-sm-9 col-sm-pull-3">
-                <h3>Weekend Grand Buffet</h3>
-                <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
-                <p><a href="#">More &raquo;</a></p>
-            </div>
-          </div>
-          
-          
-          
-           <div class="row row-content"> 
-            <div class="col-xs-12 col-sm-3 col-sm-push-9">
-                <p style="padding:20px;"></p>
-                <h3 align=center>Meet our Culinary Specialists</h3>
-            </div>
-            <div class="col-xs-12 col-sm-9 col-sm-pull-3">
-                <h3>Alberto Somayya</h3>
-                <h3>Executive Chef</h3>
-                <p>Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
-                <p><a href="#">More &raquo;</a></p>
-            </div>
-           </div>
-          
-         </div>               
-              <!--aboutus
-         </div>
+                <li><a href="index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</a></li>
+                <li class="active"><span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> About</li>
+              </ol>            </div>
             <div>
                <h3>About Us</h3>
                <hr>
@@ -288,7 +248,7 @@ address{
 
     </div>
       
-      -->
+      
       
       
       <!--index_html-->
